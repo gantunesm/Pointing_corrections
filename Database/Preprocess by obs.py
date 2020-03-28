@@ -26,23 +26,23 @@ from astropy.coordinates import get_sun,SkyCoord, EarthLocation, AltAz
 
 # only this part needs to be modified
 # Change the obs number and the ctime limits
-obs = 0
+obs = 2
 # Change the data base created before
 df = pd.read_csv('pointing_corr_arr4_f150_snrT25_FullSeason.csv')
 # this is the name of the output data base
 output_db = 'pointing_corr_arr4_f150_snrT25_obs%i_FullSeason_withEverything.csv'%obs
 
 # obs 0
-t0 = 1525652963.0
-t1 = 1525962718.0
+#t0 = 1525652963.0
+#t1 = 1525962718.0
 
 # obs 1
 #t0 = 1527281490.
 #t1 = 1528231280.
 
 # obs 2
-#t0 = 1536609972.
-#t1 = 1544458086.
+t0 = 1536609972.
+t1 = 1544458086.
 
 
 # In[6]:
